@@ -1201,3 +1201,12 @@ te.hideturtle()
 te.update()
 
 te.done()
+
+
+if __name__ == '__main__':
+    pensize(1)
+    speed(9)
+    Doraemon()
+    my_goto(100, -300)
+    write('Arya', font=("Bradley Hand ITC", 20, "bold"))
+    mainloop()
